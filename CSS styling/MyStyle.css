@@ -26,6 +26,7 @@
 .nav-list a:hover {
   border-top: 2px solid #9393f5;
   background-color: #b7b7fb;
+  font-size: large;
 }
 
 .list {
@@ -47,6 +48,7 @@
 
 .anc {
   text-decoration: none;
+
   color: black;
 }
 body {
@@ -77,4 +79,38 @@ h2 {
 h3 {
   color: #055f0596;
   text-decoration: underline;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom right, #81b8c9, #b7b7fb);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  height: 280px;
+}
+.footer {
+  height: 300px;
+  width: 250px;
+}
+.icon-foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-icon {
+  height: 30px;
+  width: 30px;
+}
+.button {
+  height: 30px;
+  width: 60px;
+  border: black 2px solid;
+  border-radius: 10px;
+  background-color: #5ca0e0;
+}
+p2,
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  color: #0f0f58;
 }
