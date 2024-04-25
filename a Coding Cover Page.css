@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.body {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/codingbg.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.paragraph {
+  color: white;
+  font-family: Bree Serif;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+}
+.card {
+  background-color: #00000080;
+  border: 4px solid #48ee59;
+  height: 100px;
+  width: 100vw;
+  align-content: center;
+}
