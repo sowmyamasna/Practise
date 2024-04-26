@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.card1 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fb4e71;
+  color: white;
+}
+.card2 {
+  align-items: left;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #e6f6ff;
+  color: #323f4b;
+}
+.card3 {
+  align-items: left;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #e6f6ff;
+  color: #323f4b;
+}
+p1 {
+  color: #888888;
+}
+.sub-card-1 {
+  align-items: left;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.sub-card-2 {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  font-family: Roboto;
+}
+
+.one {
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.two {
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.three {
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.background-container {
+  margin: 20px;
+  margin-inline-end: 40px;
+  background-color: #ffffff;
+}
+
+/* align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 120px; */
