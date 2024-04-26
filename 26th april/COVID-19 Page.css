@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+body {
+  border: 6px solid #0967d219;
+}
+
+#button {
+  background-color: #0967d2;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  color: white;
+  border: 1px solid #d7dfe9;
+}
+.top-section {
+  display: flex;
+  vertical-align: top;
+  height: 200px;
+  width: 95vw;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.text {
+  font-family: Roboto;
+  color: #323f4b;
+  border-radius: 30px;
+  text-align: left;
+}
+.second-section {
+  display: flex;
+  height: 200px;
+  width: 95vw;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0967d219;
+  border-radius: 20px;
+}
+.third-section {
+  vertical-align: top;
+  height: 200px;
+  width: 95vw;
+  padding: 20px;
+  align-content: space-between;
+  border-radius: 20px;
+}
+.image1 {
+  display: flex;
+  vertical-align: top;
+  height: 200px;
+  width: 95vw;
+  padding: 20px;
+  align-items: center;
+}
+.bottom-section {
+  vertical-align: bottom;
+  padding-top: 40px;
+  align-items: center;
+  padding-left: 20px;
+}
+.one {
+  background-color: #3ebd93;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 120px;
+  align-items: center;
+}
+.two {
+  background-color: #e668a7;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 120px;
+}
+.three {
+  background-color: #a368fc;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 120px;
+}
+.items {
+  display: flex;
+  vertical-align: top;
+  height: 200px;
+  width: 95vw;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.items-1 {
+  display: flex;
+  vertical-align: top;
+  height: 200px;
+  width: 95vw;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e12d3919;
+  border-radius: 20px;
+}
+#p {
+  color: #707070;
+}
+.background-container {
+  margin: 20px;
+}
