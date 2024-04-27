@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.card {
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  background-color: #000000e6;
+  font-family: Bree Serif;
+  margin: 20px;
+  font-weight: 200;
+}
+.body {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.btn {
+  border-radius: 10px;
+  font-family: Roboto;
+  padding: 10px;
+  margin: 20px;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+p {
+  font-family: Roboto;
+}
