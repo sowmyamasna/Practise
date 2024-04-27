@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.card {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.button {
+  background-color: #323f4b;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  color: white;
+  border: 1px solid #d7dfe9;
+}
+h3 {
+  color: #323f4b;
+  font-weight: 500;
+}
+p {
+  color: #7b8794;
+  font-weight: 500;
+}
+.body {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
