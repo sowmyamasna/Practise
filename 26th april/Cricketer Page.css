@@ -34,6 +34,9 @@ p1 {
   align-items: center;
   justify-content: space-between;
 }
+.text1 {
+  font-family: Roboto;
+}
 
 .text {
   font-family: Roboto;
@@ -43,16 +46,19 @@ p1 {
   align-items: center;
   border-radius: 10px;
   padding: 10px;
+  width: 130px;
 }
 .two {
   align-items: center;
   border-radius: 10px;
   padding: 10px;
+  width: 130px;
 }
 .three {
   align-items: center;
   border-radius: 10px;
   padding: 10px;
+  width: 130px;
 }
 
 .background-container {
