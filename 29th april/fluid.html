@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./fluid.css" />
+    <title>FLUID</title>
+  </head>
+  <body>
+    <div class="container-fluid bdr" style="position: fixed">
+      <img
+        src="data:image/jpeg;base64,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"
+        height="20px"
+        width="20px"
+      />
+      Home | Examples | Themes | Blog | Contact Us
+    </div>
+    <div class="container bdr1">
+      <div class="d-flex flex-row justify-space-between">
+        <div class="d-flex flex-column justify-space-between">
+          <h1><center>Bootstrap Practise on Containers</center></h1>
+          <p>
+            Containers are a fundamental building block of Bootstrap that
+            contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.
+          </p>
+        </div>
+
+        <div class="image">
+          <img
+            src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
+            height="300px"
+            width="300px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container bdr2">
+      <h1><center>Get started any way you want</center></h1>
+      <p>
+        <center>
+          Jump right into building with Bootstrap—use the CDN, install it via
+          package manager, or download the source code.
+        </center>
+      </p>
+    </div>
+
+    <div class="container bdr3">
+      <div class="d-flex flex-row justify-space-between">
+        <div class="bd-1 d-flex flex-column justify-space-between">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/000/350/220/non_2x/vector-package-icon.jpg"
+              height="50px"
+              width="50px"
+            />
+          </div>
+          <div class="text">
+            <h2>Install via package manager</h2>
+            <p>
+              Install Bootstrap's source Sass and JavaScript files via npm,
+              RubyGems, Composer, or Meteor. Package managed installs don't
+              include documentation or our full build scripts. You can also use
+              any demo from our Examples repo to quickly jumpstart Bootstrap
+              projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="bd-2 d-flex flex-column justify-space-between">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/026/221/538/original/internet-icon-symbol-design-illustration-vector.jpg"
+              height="50px"
+              width="50px"
+            />
+          </div>
+
+          <div class="text">
+            <h2>Include via CDN</h2>
+            <p>
+              When you only need to include Bootstrap's compiled CSS or JS, you
+              can use jsDelivr. See it in action with our simple quick start, or
+              browse the examples to jumpstart your next project. You can also
+              choose to include Popper and our JS separately.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bd-footer ftr">
+      <h4><center>Read our getting started guides</center></h4>
+      <p>
+        <center>
+          Get a jump on including Bootstrap's source files in a new project with
+          our official guides.
+        </center>
+      </p>
+    </footer>
+  </body>
+</html>
