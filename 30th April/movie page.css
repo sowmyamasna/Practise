@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+.btn {
+  color: #ff8348;
+  border-radius: 10px;
+}
+.background-container {
+  padding: 30px;
+  background-color: #ff8348;
+  background-image: linear-gradient(to bottom, #ff8348, #f7ac3c);
+}
+.heading {
+  color: white;
+  font-family: "Roboto";
+}
+.para {
+  color: white;
+  font-family: "Roboto";
+
+  padding-top: 20px;
+}
+.card1 {
+  padding-bottom: 20px;
+}
+.card2 {
+  padding-bottom: 20px;
+}
