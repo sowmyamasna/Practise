@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./nav bar.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container bdr1">
+      <div class="d-flex flex-row justify-space-between">
+        <div class="d-flex flex-column justify-space-between">
+          <h1><center>Bootstrap Practise on Containers</center></h1>
+          <p>
+            Containers are a fundamental building block of Bootstrap that
+            contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.Containers are a fundamental building block of Bootstrap
+            that contain, pad, and align your content within a given device or
+            viewport.
+          </p>
+        </div>
+
+        <div class="image">
+          <img
+            src="https://icons.getbootstrap.com/assets/img/icons-hero.png"
+            height="300px"
+            width="300px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container bdr2">
+      <h1><center>Get started any way you want</center></h1>
+      <p>
+        <center>
+          Jump right into building with Bootstrap—use the CDN, install it via
+          package manager, or download the source code.
+        </center>
+      </p>
+    </div>
+
+    <div class="container bdr3">
+      <div class="d-flex flex-row justify-space-between">
+        <div class="bd-1 d-flex flex-column justify-space-between">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/000/350/220/non_2x/vector-package-icon.jpg"
+              height="50px"
+              width="50px"
+            />
+          </div>
+          <div class="text">
+            <h2>Install via package manager</h2>
+            <p>
+              Install Bootstrap's source Sass and JavaScript files via npm,
+              RubyGems, Composer, or Meteor. Package managed installs don't
+              include documentation or our full build scripts. You can also use
+              any demo from our Examples repo to quickly jumpstart Bootstrap
+              projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="bd-2 d-flex flex-column justify-space-between">
+          <div class="image">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/026/221/538/original/internet-icon-symbol-design-illustration-vector.jpg"
+              height="50px"
+              width="50px"
+            />
+          </div>
+
+          <div class="text">
+            <h2>Include via CDN</h2>
+            <p>
+              When you only need to include Bootstrap's compiled CSS or JS, you
+              can use jsDelivr. See it in action with our simple quick start, or
+              browse the examples to jumpstart your next project. You can also
+              choose to include Popper and our JS separately.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bd-footer ftr">
+      <h4><center>Read our getting started guides</center></h4>
+      <p>
+        <center>
+          Get a jump on including Bootstrap's source files in a new project with
+          our official guides.
+        </center>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
