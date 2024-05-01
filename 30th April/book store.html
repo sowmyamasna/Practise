@@ -25,90 +25,224 @@
     <link rel="stylesheet" href="./book store.css" />
   </head>
   <body>
-    <div class="background-container">
-      <div class="body d-flex flex-column">
-        <div class="card1 d-flex flex-row">
-          <div class="image">
-            <img
-              src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/164_compress.png"
-              height="300px"
-              width="300px"
-            />
-          </div>
-
-          <div class="heading">
-            <h1><strong>VIRAT KOHLI</strong></h1>
-            <p>
-              Kohli's playing style is widely regarded as aggressive, a trait
-              that extends to his leadership on the field. Kohli is known as a
-              skilled batsman who plays with determination and energy... more
-            </p>
-          </div>
-          <div class="image">
-            <img
-              src="https://www.kreedon.com/wp-content/uploads/2019/05/18-98975896-485x360.webp"
-              height="300px"
-              width="300px"
-            />
-          </div>
-        </div>
-
-        <div class="card2 d-flex flex-column">
-          <div class="text">
-            <h4><strong>IPL Records of Kohli</strong></h4>
-          </div>
-          <div class="sub-card1 d-flex flex-row">
-            <div class="image">
+    <div id="section_popularbook">
+      <div class="top_container">
+        <div>
+          <h1 class="top_Main_heading">Popular Book</h1>
+          <div class="top_card_container d-flex flex-row">
+            <div>
               <img
-                src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/2.png"
-                height="300px"
-                width="300px"
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+                class="top_img1"
               />
             </div>
-            <div class="para">
-              <p>
-                Kohli completes 4000 runs as opener Kohli is the first batter to
-                cross the 400-run mark in the 2024 season of the IPL. The former
-                India skipper also completed 4,000 runs as an opener in the
-                world's richest T20 tournament. The batting icon averages 61.43
-                after nine matches of the IPL 2024. The ace Indian batsman has
-                become the first Indian cricketer to score 12,000 runs in T20
-                format.
-              </p>
+
+            <div class="top_text_container">
+              <h1 class="top_heading1">Wings of Fire</h1>
+              <p class="top_para1">An Autobiography of Abdul Kalam</p>
+              <p class="top_para2">by Arun Tiwari</p>
+
+              <button
+                class="top_button btn btn-primary"
+                onclick="display('section_WingsofFire')"
+              >
+                Read Now
+              </button>
             </div>
           </div>
         </div>
 
-        <div class="card3 d-flex flex-column">
-          <div class="text">
-            <h4><strong>Videos</strong></h4>
-          </div>
-          <div class="d-flex flex-row">
-            <div class="embed-responsive embed-responsive-1by1">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/P3R2M3fSRXs?si=MwMjPj790TUCH13Y"
+        <div class="center_container">
+          <h1 class="center_Main_heading">Recommended Books</h1>
+
+          <div class="center_card_container d-flex flex-row">
+            <div>
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+                class="center_img1"
+              />
+            </div>
+
+            <div class="center_text_container">
+              <h1 class="center_heading1">The 3 mistakes of my life</h1>
+              <p class="center_para1">
+                Indian author <br />
+                by Chetan Bhagat
+              </p>
+              <button
+                class="center_button btn btn-primary"
+                onclick="display('section_The3MistakesOfMyLife')"
               >
-              </iframe>
-            </div>
-            <div class="embed-responsive embed-responsive-1by1">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/dGW1CHg-J5o?si=RgB8woSNAZ1ywYAj"
-              ></iframe>
-            </div>
-            <div class="embed-responsive embed-responsive-1by1">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/Aqi45GBM0nY?si=U56yFK10anZdH3Zz"
-              ></iframe>
+                Read Now
+              </button>
             </div>
           </div>
-          <div class="align-self-center">
-            <button class="btn btn-primary" type="button">View more</button>
+
+          <div class="bottom_card_container d-flex flex-row">
+            <div>
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+                class="bottom_img1"
+              />
+            </div>
+            <div class="center_text_container">
+              <h1 class="center_heading1">Harry Potter</h1>
+              <p class="center_para1">
+                and the Sorcerer's Stone <br />
+                by J.K. Rowling
+              </p>
+
+              <button
+                class="center_button btn btn-primary"
+                onclick="display('section_HarryPotter')"
+              >
+                Read Now
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div id="section_WingsofFire">
+      <div class="book_detailspage">
+        <div class="d-flex flex-column">
+          <div>
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+                height="400px"
+                ;
+              />
+            </div>
+            <div class="text_align">
+              <h1 class="heading1">Wings of Fire</h1>
+              <h6 class="heading6">by Arun Tiwari</h6>
+              <div>
+                <p class="para1">
+                  Every common man who by his sheer grit and hard work achieves
+                  success should share his story with the rest for they may find
+                  inspiration and strength to go on, in his story. The 'Wings of
+                  Fire' is one such autobiography by visionary scientist Dr. APJ
+                  Abdul Kalam, who from very humble beginnings rose to be the
+                  President of India. The book is full of insights, personal
+                  moments and life experiences of Dr. Kalam. It gives us an
+                  understanding on his journey of success.
+                </p>
+              </div>
+
+              <div class="d-flex flex-row justify-content-center">
+                <div>
+                  <button
+                    class="top_button btn btn-warning"
+                    onclick="display('section_popularbook')"
+                  >
+                    Back
+                  </button>
+                </div>
+                <div class="button">
+                  <button class="top_button btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section_The3MistakesOfMyLife">
+      <div class="book_detailspage">
+        <div class="d-flex flex-column">
+          <div>
+            <div class="d-flex flex-row justify-content-center">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+                height="400px"
+              />
+            </div>
+            <div class="text_align">
+              <h1 class="heading1">The 3 Mistakes of my life</h1>
+              <h6 class="heading6">by Chetan Bhagat</h6>
+              <div>
+                <p class="para1">
+                  The 3 Mistakes of my life is the third novel written by
+                  eminent Indian Author Chetan Bhagat. Based on cricket,
+                  business and religion, the novel is set against the backdrop
+                  of beautiful city Ahmedabad. Revolving around three young
+                  Indian boys Omi, Ishaan and Govind, the book goes on to
+                  narrate how the three are trying their best to make ends meet
+                  in the city. Based on real events, the book starts with a
+                  dramatic twist, where Bhagat is reading an e-mail sent by some
+                  young person Govind.
+                </p>
+              </div>
+
+              <div class="d-flex flex-row justify-content-center">
+                <div>
+                  <button
+                    class="top_button btn btn-warning"
+                    onclick="display('section_popularbook')"
+                  >
+                    Back
+                  </button>
+                </div>
+                <div class="button">
+                  <button class="top_button btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section_HarryPotter">
+      <div class="book_detailspage">
+        <div class="d-flex flex-column">
+          <div>
+            <div class="d-flex flex-row justify-content-center">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+                height="400px"
+              />
+            </div>
+            <div class="text_align">
+              <h1 class="heading1">Harry Potter</h1>
+              <h6 class="heading6">by J.K.Rowling</h6>
+              <div>
+                <p class="para1">
+                  Harry Potter's life is miserable. His parents are dead and
+                  he's stuck with his heartless relatives, who force him to live
+                  in a tiny closet under the stairs. But his fortune changes
+                  when he receives a letter that tells him the truth about
+                  himself: he's a wizard. A mysterious visitor rescues him from
+                  his relatives and takes him to his new home, Hogwarts School
+                  of Witchcraft and Wizardry. After a lifetime of bottling up
+                  his magical powers, Harry finally feels like a normal kid.
+                </p>
+              </div>
+
+              <div class="d-flex flex-row justify-content-center">
+                <div>
+                  <button
+                    class="top_button btn btn-warning"
+                    onclick="display('section_popularbook')"
+                  >
+                    Back
+                  </button>
+                </div>
+                <div class="button">
+                  <button class="top_button btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
   </body>
 </html>
