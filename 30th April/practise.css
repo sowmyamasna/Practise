@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.card1 {
+  padding: 20px;
+}
+
+.top-container {
+  padding: 30px;
+}
+
+.bottom-button {
+  border-radius: 50px;
+  margin: 10px;
+  font-weight: 500;
+  width: 180px;
+  background-color: #483068;
+}
+
+#sectionhomepage {
+  background-color: #884b8a;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+#sectiondetailspage1 {
+  background-color: #03174c;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+#sectiondetailspage2 {
+  background-color: #03174c;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+#sectiondetailspage3 {
+  background-color: #03174c;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.top-card-heading {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.top-card-para {
+  color: white;
+  padding-left: 20px;
+}
+.top-card-image {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.top-heading {
+  color: #deb7e0;
+}
+.details1 {
+  padding: 20px;
+}
+.details2 {
+  padding: 20px;
+}
+.details3 {
+  padding: 20px;
+}
