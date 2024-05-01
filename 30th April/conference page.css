@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.conferencehome-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.bottom-container {
+  display: flex;
+  justify-content: center;
+}
+.flex1 {
+  margin: 40px;
+}
+.flex2 {
+  margin: 40px;
+}
+.flex3 {
+  margin: 40px;
+}
+.flex4 {
+  margin: 40px;
+}
+.details1 {
+  display: flex;
+  align-items: center;
+}
+
+.conferencehome-card {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+}
+.conferencehome-title {
+  color: #183b56;
+}
+.conferencehome-description {
+  color: #5a7184;
+}
+
+.top-card-heading {
+  color: #183b56;
+}
+.top-card-para {
+  color: #5a7184;
+}
+#head {
+  color: #183b56;
+}
+#para {
+  color: #5a7184;
+}
+
+.embed-responsive {
+  display: flex;
+  margin: 10px;
+  border-radius: 10px;
+}
+top-card-video {
+  background-color: black;
+}

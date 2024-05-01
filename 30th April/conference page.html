@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./conference page.css" />
+  </head>
+
+  <body>
+    <div id="sectionhomepage">
+      <div
+        class="conferencehome-bg-container d-flex flex-column justify-content-end"
+      >
+        <div
+          class="conferencehome-card d-flex flex-column justify-content-center"
+        >
+          <div class="conferencehome-title">
+            <h2><strong> The Things Conference </strong></h2>
+          </div>
+          <br />
+
+          <div class="conferencehome-description">
+            <p>Redefining the future of loT with LoRaWAN</p>
+          </div>
+
+          <div class="align-self-center mx-auto">
+            <button
+              class="btn btn-primary"
+              onclick="display('sectiondetailspage')"
+            >
+              Know more
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectiondetailspage">
+      <div class="details1 d-flex flex-column justify-content-between">
+        <div class="top-card-video">
+          <div
+            class="embed-responsive embed-responsive-16by9"
+            style="width: 33rem"
+          >
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/vKJ6nXE_6Hc?si=M4Rf04Sk7dj2shSh"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="top-card-heading">
+          <h3><strong>Things Conference</strong></h3>
+        </div>
+        <div class="top-card-para">
+          <p>Join Asia's Largest conference on LoRaWAN</p>
+        </div>
+      </div>
+
+      <div class="bottom-container d-flex flex-column justify-content-center">
+        <div class="d-flex flex-row justify-content-center">
+          <div class="flex1">
+            <h3 id="head">1400+</h3>
+            <p id="para">Attendees</p>
+          </div>
+          <div class="flex2">
+            <h3 id="head">100+</h3>
+            <p id="para">Workshops</p>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center">
+          <div class="flex3">
+            <h3 id="head">120+</h3>
+            <p id="para">Speakers</p>
+          </div>
+          <div class="flex3">
+            <h3 id="head">10+</h3>
+            <p id="para">Countries</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button
+          class="bottom-button btn btn-primary"
+          onclick="display('sectionhomepage')"
+        >
+          Back
+        </button>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
