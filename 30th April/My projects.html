@@ -32,8 +32,6 @@
       <div class="top back1">
         <img
           src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png"
-          height="180"
-          width="250"
         />
         <div class="card1 d-flex flex-column justify-content-end">
           <h1>My Projects</h1>
@@ -44,8 +42,8 @@
         </div>
       </div>
 
-      <div class="bottom d-flex flex-column justify-content-center">
-        <div class="d-flex flex-row justify-content-between">
+      <div class="bottom-container d-flex flex-column justify-content-center">
+        <div class="d-flex flex-row justify-content-center">
           <img
             src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png"
             onclick="display('section2')"
@@ -60,7 +58,7 @@
           />
         </div>
 
-        <div class="d-flex flex-row justify-content-between">
+        <div class="d-flex flex-row justify-content-center">
           <img
             src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png"
             onclick="display('section4')"
@@ -144,14 +142,48 @@
       <div
         class="food-order-bg-container d-flex flex-column justify-content-end"
       >
-        <div class="order-card">
-          <div class="heading">
+        <div class="food-order-card">
+          <div class="food-order-title">
             <h1>Happy Meals</h1>
           </div>
-          <div class="paragraph">
+          <div class="food-order-description">
             <p>Discover the best foods over the 1,000 restaurants</p>
           </div>
-          <div class="button"><button>Book NOW</button></div>
+          <button class="food-order-button">Book NOW</button>
+          <button class="btn btn-primary" onclick="display('section1')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="section5">
+      <div
+        class="newspaper-bg-container d-flex flex-column justify-content-end"
+      >
+        <div class="newspaper-card d-flex justify-content-left">
+          <div class="newspaper-title">
+            <div class="newspaper-heading">
+              <p>NEWS OF THE DAY</p>
+              <h3>
+                iB Cricket announces world's first Virtual Reality Cricket
+                League
+              </h3>
+
+              <p>
+                iB cricket and Viu together have announced the World's first
+                reality cricket league featuring 12 international cricketers,
+                who will be competing against each other for the iB Cricket
+                Super Over League title in Mumbai. Iconic cricketers like
+                Virender Sehwag, Suresh Raina, Brendon McCullum will be
+                competing in the league...
+              </p>
+            </div>
+            <button class="newspaper-button" type="button">Read more</button>
+            <button class="btn btn-primary" onclick="display('section1')">
+              Back
+            </button>
+          </div>
         </div>
       </div>
     </div>
