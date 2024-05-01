@@ -29,9 +29,11 @@
   </head>
   <body>
     <div id="section1">
-      <div class="back1">
+      <div class="top back1">
         <img
           src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png"
+          height="180"
+          width="250"
         />
         <div class="card1 d-flex flex-column justify-content-end">
           <h1>My Projects</h1>
@@ -42,25 +44,34 @@
         </div>
       </div>
 
-      <div class="a d-flex flex-column">
+      <div class="bottom d-flex flex-column justify-content-center">
         <div class="d-flex flex-row justify-content-between">
           <img
             src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png"
             onclick="display('section2')"
+            height="180"
+            width="250"
           />
           <img
-            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png"
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/iphoneX-bg.png"
             onclick="display('section3')"
+            height="180"
+            width="250"
           />
         </div>
+
         <div class="d-flex flex-row justify-content-between">
           <img
             src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png"
             onclick="display('section4')"
+            height="180"
+            width="250"
           />
           <img
             src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png"
             onclick="display('section5')"
+            height="180"
+            width="250"
           />
         </div>
       </div>
@@ -71,17 +82,60 @@
         class="advanced-technologies-bg-container d-flex flex-column justify-content-end"
       >
         <div class="advanced-technologies-card">
-          <h1 class="advanced-technologies-title">Advanced Technologies</h1>
-          <p class="advanced-technologies-description">
-            Machinery and equipment developed from the application of scientific
-            knowledge.
-          </p>
+          <div class="advanced-technologies-title">
+            <h1>Advanced Technologies</h1>
+          </div>
+          <div class="advanced-technologies-description">
+            <p>
+              Machinery and equipment developed from the application of
+              scientific knowledge.
+            </p>
+          </div>
+
           <button class="advanced-technologies-learn-more-button">
             Learn more
           </button>
           <button class="btn btn-primary" onclick="display('section1')">
             Back
           </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="section3">
+      <div
+        class="mobile-specifications-bg-container d-flex flex-column justify-content-end"
+      >
+        <div
+          class="mobile-specifications-card d-flex flex-column justify-content-left"
+        >
+          <div class="mobile-specifications-title">
+            <h3><strong>Specifications:</strong></h3>
+          </div>
+          <br />
+
+          <div class="mobile-specifications-description">
+            <div class="unordered-list">
+              <ul>
+                <li>3 GB RAM</li>
+                <br />
+                <li>5.80 Super Retina HD OLED Display</li>
+                <br />
+                <li>Front camera 7MP</li>
+                <br />
+                <li>Rear Camera 12MP + 12MP</li>
+                <br />
+                <li>Apple A11 Bionic processor</li>
+                <br />
+                <li>Battery Capacity 2716mAH</li>
+              </ul>
+            </div>
+          </div>
+          <div class="align-self-center mx-auto">
+            <button class="btn btn-primary" onclick="display('section1')">
+              Back
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -101,5 +155,10 @@
         </div>
       </div>
     </div>
+
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
   </body>
 </html>
