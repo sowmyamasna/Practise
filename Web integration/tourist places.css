@@ -15,11 +15,14 @@
   width: 180px;
   background-color: #483068;
 }
+.container1 {
+  margin-bottom: 40px;
+}
 
 #sectionhomepage {
   background-color: #884b8a;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-size: cover;
 }
 

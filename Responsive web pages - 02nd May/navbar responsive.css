@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+h2 {
+  color: #25008b;
+  text-decoration-line: underline;
+}
+
+.heading {
+  color: #006400;
+  font-family: "Bree Serif";
+}
+
+.card1 {
+  margin-top: 100px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  font-size: 18px;
+  color: #910696;
+}
+.card2 {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card3 {
+  margin: 20px;
+}
+footer {
+  margin: 20px;
+}
+#sectionhomepage {
+  width: 100vw;
+  height: auto;
+}
+
+.container1 {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+}
