@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.card1 {
+  margin-bottom: 50px;
+
+  background-color: #f7d3b1;
+}
+
+.card3 {
+  margin: 50px;
+  background-color: #c0c3c5;
+  border-radius: 20px;
+  padding: 5px;
+  justify-content: flex-end;
+}
+
+.bottom-button {
+  border-radius: 50px;
+  background-color: #8e97fd;
+  font-weight: 500;
+}
+.top-image {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: auto;
+}
+.centered1 {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.centered3 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.image-card-container1 {
+  position: relative;
+  text-align: center;
+  color: #d18b91;
+  font-size: 30px;
+  font-family: "Bree Serif";
+  font-weight: 500;
+}
+
+.image-card-container2 {
+  position: relative;
+  text-align: center;
+  color: #127c77;
+  font-size: 30px;
+  font-family: "Bree Serif";
+  font-weight: 500;
+}
+.image-card-container3 {
+  position: relative;
+  text-align: center;
+  color: #8c9192;
+  font-size: 30px;
+  font-family: "Bree Serif";
+  font-weight: 500;
+}
+
+#watermark {
+  border-radius: 30px;
+  margin: 30px;
+}
+
+#sectionhomepage {
+  background-color: #ffffff;
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+}
+.top-heading {
+  color: #2b2d49;
+  font-family: "Bree Serif";
+  align-items: center;
+}
+
+.container1 {
+  margin: 36px;
+}
+.navbar a:hover {
+  border-top: 2px solid black;
+}
+.text_align {
+  align-items: center;
+}
+.button {
+  margin-left: 10px;
+}
