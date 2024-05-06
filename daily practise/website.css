@@ -89,6 +89,9 @@
 
 .container1 {
   margin: 36px;
+  display: flex;
+
+  width: 95%;
 }
 .navbar a:hover {
   border-top: 2px solid black;
@@ -98,4 +101,45 @@
 }
 .button {
   margin-left: 10px;
+}
+.container4 {
+  margin: 40px;
+}
+.w-100 {
+  border-radius: 30px;
+}
+
+.footer {
+  width: 95%;
+  display: flexbox;
+
+  background: #10182f;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+.footer-row {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 60px;
+}
+.footer-col h4 {
+  color: #fff;
+  font-weight: 400;
+}
+.footer-col .links {
+  margin-top: 20px;
+}
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+.footer-col .links li a:hover {
+  color: #fff;
 }
