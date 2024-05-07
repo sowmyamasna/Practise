@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.Todolist-container {
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+#heading1 {
+  color: #407ccf;
+  font-family: "roboto";
+}
+h1 {
+  font-family: "roboto";
+  font-size: 30px;
+  font-weight: 600;
+}
+li {
+  font-size: 23px;
+  font-family: "roboto";
+  padding: 10px;
+}
+strike {
+  font-size: 23px;
+  font-family: "roboto";
+  color: #8b8b8b;
+  font-style: italic;
+}

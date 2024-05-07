@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+p {
+  background-color: #ecdbc8;
+  font-family: "roboto";
+  font-size: 22px;
+  padding: 25px;
+  margin: 0px;
+}
+#dark {
+  background-color: #000000;
+  color: #ffffff;
+}

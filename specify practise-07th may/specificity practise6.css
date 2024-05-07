@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.black-text {
+  color: black !important;
+}
+.green-text {
+  color: green;
+}
+#orangeText {
+  color: orange;
+}
+h1 {
+  color: white;
+  background-color: darkseagreen;
+  font-family: "Roboto";
+  padding: 10px;
+}
+body {
+  margin: 10px;
+}
