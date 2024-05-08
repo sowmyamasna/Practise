@@ -1,1 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+h1 {
+  font-size: 28px;
+  color: #1f2933;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  color: #7b8794;
+}
+button {
+  color: white;
+  background-color: #1a2137;
+  border-radius: 6px;
+  width: 110px;
+  padding: 6px;
+}

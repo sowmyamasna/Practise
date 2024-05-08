@@ -1,1 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-optics-img.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 12px;
+}
+.h1 {
+  color: #1f2933;
+  font-weight: bold;
+  font-size: 40px;
+}
+h1 {
+  color: white;
+  font-size: 26px;
+}
+p {
+  color: white;
+  font-size: 16px;
+}
+button {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 6px;
+  padding: 4px;
+  width: 110px;
+}
+.bg-container2 {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 12px;
+}
+.button {
+  color: white;
+  background-color: #1754a1;
+
+  border-width: 0px;
+  padding: 8px;
+  width: 120px;
+}
