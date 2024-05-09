@@ -22,3 +22,12 @@
 .ftr {
   padding: 50px;
 }
+.container1 {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+#sectionhomepage {
+  width: 100vw;
+  height: auto;
+}

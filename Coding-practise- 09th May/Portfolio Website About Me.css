@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.top-bg-container {
+  background-color: #323f4b;
+}
+
+h2 {
+  color: #cced00;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: #9aa5b1;
+}
+
+.bottom-bg-container {
+  background-color: #1f2933;
+}
+
+.card-container {
+  height: 100px;
+  width: 120px;
+  background-color: #323f4b;
+  border-radius: 12px;
+}
+
+h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.card-container1 {
+  height: 150px;
+  width: 1700px;
+  background-color: #323f4b;
+  border-radius: 12px;
+}
