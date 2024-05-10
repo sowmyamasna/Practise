@@ -1,1 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.bg-container {
+  background-color: #19232d;
+}
+
+img {
+  height: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.icon-bg {
+  background-color: #202b36;
+  height: 55px;
+  width: 55px;
+  padding: 15px;
+  padding-radius: 50%;
+  margin: 6px;
+}
+.icon {
+  font-size: 24px;
+  color: #5a7184;
+}
+h1 {
+  font-size: 16px;
+  color: #5a7184;
+  margin-top: 16px;
+  text-transform: capitalize;
+}
+
+.h1 {
+  font-size: 22px;
+}
+
+.icon1 {
+  color: #5a7184;
+  font-size: 22px;
+}
+p {
+  margin-top: 16px;
+  color: #5a7184;
+  font-size: 20px;
+}
+
+hr {
+  background-color: #5a7184;
+}
+.p {
+  color: #959ead;
+  font-size: 22px;
+}
