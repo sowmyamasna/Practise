@@ -1,1 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+
+.main-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+  background-size: cover;
+}
+
+hr {
+  background-color: white;
+  border-width: 1px;
+  width: 56px;
+}
+
+.p {
+  font-weight: bold;
+  font-size: 26px;
+}
