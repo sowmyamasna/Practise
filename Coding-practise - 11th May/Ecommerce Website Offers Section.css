@@ -1,1 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree Serif&family=Roboto");
+p {
+  color: white;
+  font-size: 18px;
+}
+span {
+  font-style: italic;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #f49541, #dd5d97, #ad2167);
+}
+
+.image {
+  height: 30vh;
+}
+
+h1 {
+  color: #ad2167;
+  font-size: 22px;
+  font-weight: 580;
+  font-family: "bree serif";
+}
