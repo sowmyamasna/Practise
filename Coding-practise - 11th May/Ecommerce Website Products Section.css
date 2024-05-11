@@ -3,13 +3,13 @@
 .product-image-1 {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   border-radius: 10px;
 }
 .product-image-2 {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   border-radius: 10px;
 }
 
