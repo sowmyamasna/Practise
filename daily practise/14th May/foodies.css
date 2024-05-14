@@ -1,0 +1,39 @@
+.navbar-brand {
+  font-weight: 600;
+  color: maroon !important;
+}
+.nav-link {
+  font-weight: 600;
+  color: maroon !important;
+}
+a:hover {
+  color: darkblue !important;
+}
+.dropdown-item {
+  color: maroon !important;
+}
+h1 {
+  font-size: 35px;
+  color: #21215a;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+p {
+  font-size: 25px;
+  color: #21215a;
+  font-family: "Roboto";
+}
+
+.container-milestone {
+  background-color: maroon;
+  background-size: cover;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 26px;
+}
+#para {
+  font-size: 12px;
+  color: white;
+}
