@@ -1,0 +1,39 @@
+.navbar-brand {
+  font-weight: 600;
+  color: maroon !important;
+}
+.nav-link {
+  font-weight: 600;
+  color: maroon !important;
+}
+a:hover {
+  color: darkblue !important;
+}
+.dropdown-item {
+  color: maroon !important;
+}
+h1 {
+  font-size: 35px;
+  color: #21215a;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+p {
+  font-size: 25px;
+  color: #21215a;
+  font-family: "Roboto";
+}
+
+button {
+  border-radius: 10px;
+  background-color: maroon;
+  color: white;
+  font-size: 15px;
+  height: 35px;
+  width: 100px;
+}
+p1,
+p2,
+p3 {
+  color: #126969;
+}
