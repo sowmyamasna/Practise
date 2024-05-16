@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link
       rel="stylesheet"
@@ -22,25 +22,25 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./p1.css" />
+
+    <link rel="stylesheet" href="counter.css" />
   </head>
+
   <body>
-    <button
-      onclick="document.getElementById('myImage').src='https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg'"
+    <div
+      class="bg-container text-center d-flex flex-column justify-content-center"
     >
-      open the box
-    </button>
+      <h1 class="counter-heading">Counter</h1>
 
-    <img
-      id="myImage"
-      src="https://img.freepik.com/free-photo/cardboard-box-isolated_125540-652.jpg"
-      style="width: 100px"
-    />
+      <p id="CounterValue" class="counter-value">0</p>
+      <div>
+        <button onclick="onDecrement()" class="button">DECREASE</button>
 
-    <button
-      onclick="document.getElementById('myImage').src='https://img.freepik.com/free-photo/cardboard-box-isolated_125540-652.jpg'"
-    >
-      close the box
-    </button>
+        <button onclick="onReset()" class="button">RESET</button>
+
+        <button onclick="onIncrement()" class="button">INCREASE</button>
+      </div>
+    </div>
+    <script src="counter.js"></script>
   </body>
 </html>
