@@ -1,32 +1,27 @@
-let inputElement= document.getElementById("inputElement");
-let signInTextElement= document.getElementById("signInText");
+function validateUser(){
 
-function signIn(){
-    let expecteduser = "sowmyamasna@gmail.com";
-    let expectedpwd = "123";
-    let username = document.getElementById("username").value;
+    let expectedUser = "sowmyamasna@gmail.com";
+    let expectedPwd = "123";
+
+   let username = document.getElementById("username").value;
    let password = document.getElementById("password").value;
 
    console.log(username);
    console.log(password);
 
-   if(username == expecteduser && password == expectedpwd){
+   if(username === expectedUser && password === expectedPwd){
 
       
-    document.getElementById("msg").textContent = "login success";
+    document.getElementById("message").innerHTML = "Login Success!!";
    }
-
+   
 
     else{
 
-    document.getElementById("msg").textContent = "login fail";
+    document.getElementById("message").innerHTML = "Invalid Credentials!";
 
     }
 
-    let inputValue= inputElement.value;
-    let verifyText= "Hi " + inputValue + ", verifying your account...";
-    signInTextElement.textContent = verifyText;
-    alert("your credentials are wrong")
-}
 
+}
 
