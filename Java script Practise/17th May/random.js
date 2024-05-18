@@ -6,42 +6,34 @@ console.log(random);
 
 function validateNum(){
 
+let userinput =   parseInt  (document.getElementById("userinput").value);
 
 
 
 
 
+if(userinput > random && userinput <= num && userinput > 0){
 
-
-
-
-
-
-
-let userinput = document.getElementById("usernput").value;
-
-
-
-
-
-if(userinput > random && userinput<num && userinput > 0){
-
-    document.getElementById("msg").innerHTML = "Too high"
+    document.getElementById("message").innerHTML = "Too High! Try Again."
+    message.style.backgroundColor= "#2a2a74";
     
 }
-else if(userinput < random &&  userinput <num && userinput > 0){
+else if(userinput < random &&  userinput <= num && userinput > 0){
 
-    document.getElementById("msg").innerHTML = "Too low"
+    document.getElementById("message").innerHTML = "Too Low! Try Again."
+    message.style.backgroundColor= "#2a2a74";
 
 
 }else if(userinput == random){
 
-    document.getElementById("msg").innerHTML = "pass"
+    document.getElementById("message").innerHTML = "Congratulations!! You got it Right."
+    message.style.backgroundColor= "green";
 
 
 } else{
 
-    document.getElementById("msg").innerHTML = "invalid input"
+    document.getElementById("message").innerHTML = "Invalid Input.. Please provide a valid Input."
+    message.style.backgroundColor= "red";
 
 }
 

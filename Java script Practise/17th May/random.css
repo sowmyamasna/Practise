@@ -1,0 +1,40 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  color: #000000b2;
+}
+
+.guess-bg-container {
+  color: #ffffff;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #5454c2;
+  padding: 20px;
+}
+button {
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #49b6b9;
+  width: 150px;
+  height: 40px;
+}
+label {
+  font-size: 28px;
+  font-weight: 600;
+}
+#userinput {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+}
+#message {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
