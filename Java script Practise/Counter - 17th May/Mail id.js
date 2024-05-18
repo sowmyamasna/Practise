@@ -1,7 +1,7 @@
 function validateUser(){
 
-    let expecteduser = "sowmyamasna@gmail.com";
-    let expectedpwd = "123";
+    let expectedUser = "sowmyamasna@gmail.com";
+    let expectedPwd = "123";
 
    let username = document.getElementById("username").value;
    let password = document.getElementById("password").value;
@@ -9,19 +9,19 @@ function validateUser(){
    console.log(username);
    console.log(password);
 
-   if(username == expecteduser && password == expectedpwd){
+   if(username === expectedUser && password === expectedPwd){
 
       
-    document.getElementById("msg").textContent = "login success";
+    document.getElementById("message").innerHTML = "Login Success!!";
    }
-
+   
 
     else{
 
-    document.getElementById("msg").textContent = "login fail";
+    document.getElementById("message").innerHTML = "Invalid Credentials!";
 
     }
 
 
-
 }
+
