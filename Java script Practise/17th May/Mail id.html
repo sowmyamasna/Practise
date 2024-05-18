@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="Mail id.css" />
   </head>
   <body>
-    <label for="">Username</label>
-
-    <input id="username" type="email" placeholder="Enter Username" />
-
-    <label for="">Password</label>
-
-    <input id="password" type="password" placeholder="Enter Password" />
-
-    <button onclick="validateUser()">Sign In</button>
-
-    <p id="message"></p>
-
+    <div class="container">
+      <div>
+        <label>Username</label><br /><br />
+        <div>
+          <input id="username" type="email" placeholder="Enter Username" />
+        </div>
+        <br />
+        <label>Password</label><br /><br />
+        <div>
+          <input id="password" type="password" placeholder="Enter Password" />
+        </div>
+        <br />
+        <button onclick="validateUser()">Sign In</button>
+        <br />
+        <p id="message"></p>
+      </div>
+    </div>
     <script src="Mail id.js"></script>
   </body>
 </html>
