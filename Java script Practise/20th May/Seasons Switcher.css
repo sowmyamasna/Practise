@@ -1,0 +1,26 @@
+img {
+  height: 600px;
+  width: 500px;
+}
+
+button {
+  height: 30px;
+  width: 90px;
+  margin: 16px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+#button1 {
+  background-color: green;
+}
+#button2 {
+  background-color: yellow;
+}
+#button3 {
+  background-color: red;
+}
+#button4 {
+  background-color: lightskyblue;
+}
