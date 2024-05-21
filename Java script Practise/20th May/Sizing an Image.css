@@ -1,0 +1,53 @@
+.bg-container {
+  background-color: #f5f7fa;
+}
+.sizing-an-image-heading {
+  font-family: "Bree seris ";
+  font-size: 50px;
+  font-weight: bold;
+}
+.sizing-an-image-decription {
+  font-family: "roboto ";
+  font-size: 20px;
+  font-weight: 500;
+}
+.warning-message {
+  color: #cf1124;
+  font-family: "roboto ";
+  font-size: 25px;
+  font-weight: 500;
+}
+.image-width {
+  color: #323f4b;
+  font-family: "roboto ";
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.buttons-container {
+  background-color: white;
+  width: 150px;
+}
+
+.button {
+  color: #323f4b;
+  background-color: white;
+  font-family: "roboto ";
+  font-size: 20px;
+  font-weight: 700;
+  width: 35%;
+  height: 50px;
+  border-width: 0;
+}
+.hr-line {
+  background-color: black;
+  width: 1px;
+  height: 20px;
+}
+.width-in-px {
+  color: #323f4b;
+  font-family: "roboto ";
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px;
+}
