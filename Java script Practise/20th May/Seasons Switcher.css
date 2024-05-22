@@ -1,26 +1,26 @@
 img {
   height: 600px;
-  width: 500px;
+  width: 400px;
 }
 
 button {
-  height: 30px;
-  width: 90px;
-  margin: 16px;
+  height: 32px;
+  width: 80px;
+  margin: 10px;
   border: none;
   color: white;
   border-radius: 5px;
 }
 
-#button1 {
+#springButton {
   background-color: green;
 }
-#button2 {
+#summerButton {
   background-color: yellow;
 }
-#button3 {
+#autumnButton {
   background-color: red;
 }
-#button4 {
+#winterButton {
   background-color: lightskyblue;
 }
