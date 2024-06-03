@@ -1,0 +1,42 @@
+body {
+  background-color: #f0f5f4;
+}
+
+button {
+  background-color: #d8e0e7;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.info {
+  background-color: #fffffc;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 16px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #11273a;
+}
+h6 {
+  margin: 16px 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.buton {
+  margin-top: 16px;
+}
+
+.active {
+  background-color: white;
+}
