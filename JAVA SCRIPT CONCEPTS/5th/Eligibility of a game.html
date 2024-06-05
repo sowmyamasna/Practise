@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function isEligibleforNextlevel(name, score) {
+        let Score = {
+          name: name,
+          score: score,
+        };
+        if (score > 5) {
+          return true;
+        } else {
+          return false;
+        }
+      }
 
+      console.log(isEligibleforNextlevel("Geetha", 5));
+    </script>
+  </body>
+</html>
