@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let mya = [
+        {
+          name: "Printing press",
+          invented: "Johannes Gutenberg",
+        },
+        {
+          name: "Light bulb",
+          invented: "Thomas Edison",
+        },
+        {
+          name: "Telephone",
+          invented: "Alexander Graham Bell",
+        },
+        {
+          name: "Aeroplane",
+          invented: "Orville and Wilbur Wright",
+        },
+        {
+          name: "Computer",
+          invented: "Charles Babbage",
+        },
+      ];
+
+      function getTask(a) {
+        for (let k of mya) {
+          console.log(k[a]);
+        }
+      }
+
+      getTask("invented");
+    </script>
+  </body>
+</html>
