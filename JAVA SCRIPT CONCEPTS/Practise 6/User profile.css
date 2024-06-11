@@ -1,0 +1,25 @@
+.profile-container {
+  height: 100vh;
+  background-color: #b990ff;
+  color: white;
+}
+
+.img {
+  margin-top: 50px;
+  width: 210px;
+}
+.paragraph {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 800;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+#imgContainer {
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: #f9fbfe;
+}
+button {
+  border: none;
+  background-color: #4c63b6;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.item {
+  display: inline-flex;
+  background-color: #e6f6ff;
+  padding: 10px 150px 10px 20px;
+  margin: 6px;
+  border-radius: 5px;
+  border-left: 5px solid #0b6f92;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid lightblue;
+}

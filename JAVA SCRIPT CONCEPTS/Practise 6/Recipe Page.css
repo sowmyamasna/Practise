@@ -1,0 +1,27 @@
+.ingredients-container {
+  border-radius: 10px;
+  background-image: linear-gradient(#0f3e5b, #467ea0);
+  color: white;
+  font-size: 38px;
+  padding: 20px;
+  height: 430px;
+  width: 430px;
+  font-family: Roboto;
+  margin-left: 11px;
+}
+h3 {
+  font-size: 38px;
+  font-weight: 400;
+}
+img {
+  margin: auto;
+  border-radius: 10px;
+  width: 95%;
+  height: 300px;
+}
+
+#title {
+  color: red;
+  margin: 20px;
+  font-family: ;
+}
