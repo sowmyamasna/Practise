@@ -1,6 +1,6 @@
 let recipeObj = {
     title: "Tomato Pasta",
-    image: "https://static.toiimg.com/photo/31898786/.jpg",
+    image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/recipe-img.png",
     ingredients: [
       "Pasta",
       "Oil",
