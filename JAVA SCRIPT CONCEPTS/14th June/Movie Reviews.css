@@ -1,0 +1,51 @@
+.review-container {
+  margin-top: 20px;
+}
+.review-data {
+  font-family: "roboto";
+  font-size: 14px;
+}
+.movie-title {
+  font-family: "roboto";
+  font-size: 16px;
+  color: #2d3a35;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.textarea-input {
+  border-style: solid;
+  width: 400px;
+  border-width: 2px;
+  border-color: #cbd2d9;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "roboto";
+  padding: 12px;
+}
+.user-input {
+  border-style: solid;
+  width: 400px;
+  height: 42px;
+  border-width: 2px;
+  border-color: #cbd2d9;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "roboto";
+  padding: 12px;
+}
+.movie-title-heading {
+  font-family: "roboto";
+  font-size: 14px;
+  color: #7b8794;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.heading {
+  font-family: "bree serif";
+  font-size: 36px;
+  text-align: center;
+  color: #2d3a35;
+  font-weight: 600;
+}
